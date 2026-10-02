@@ -1,0 +1,40 @@
+{
+  "protocol_sha256": "b3cd85a1cea5f9c7b489c243697bf83a0e3442c2c4b6d8889d0e8c8a5065c802",
+  "source_sha256": "27a6d0dcb1659eeb6780b955f058f2af5b33b5eba266bf120cdb23fb7f8477bf",
+  "selected_primary": "bivariate_poisson",
+  "holdout_season": 2024,
+  "configs": {
+    "ridge_poisson_proxy": {
+      "alpha": 100.0
+    },
+    "poisson": {
+      "alpha": 1.0
+    },
+    "negative_binomial": {
+      "alpha": 0.1
+    },
+    "attack_defence_poisson": {
+      "alpha": 0.01
+    },
+    "bivariate_poisson": {
+      "alpha": 1.0
+    },
+    "boosted_poisson": {
+      "leaves": 7,
+      "iterations": 100
+    },
+    "random_forest_poisson_proxy": {
+      "leaf": 50
+    }
+  },
+  "development_seconds": 53.1932583999951,
+  "seed": 20261002,
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2"
+  }
+}

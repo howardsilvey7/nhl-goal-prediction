@@ -65,15 +65,14 @@ def baseline(name, testing):
 def run():
     parser = argparse.ArgumentParser()
     parser.add_argument('--holdout',action='store_true')
-    parser.add_argument('--force-reproduce',action='store_true',help='Replay frozen study, not new selection')
     args = parser.parse_args()
     reports = ROOT/'reports'
     predictions = reports/'predictions'
     predictions.mkdir(parents=True,exist_ok=True)
     frozen_path = reports/'frozen-models.json'
     holdout_path = reports/'holdout-metrics.csv'
-    if holdout_path.exists() and args.holdout and not args.force_reproduce:
-        raise SystemExit('Holdout already evaluated. Use frozen reproducibility replay explicitly.')
+    if frozen_path.exists() or holdout_path.exists():
+        raise SystemExit('Study is frozen. Use scripts/reproduce_frozen.py; do not select models again.')
     source = ROOT/'data/raw/all_teams.csv'
     games, excluded = canonical_games(source)
     features = build_features(games)

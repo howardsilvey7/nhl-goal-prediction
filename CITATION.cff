@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite this 2026 research edition separately from the original 2020 honours project."
+type: software
+title: "National Hockey League Goal Prediction Modern Statistical and Machine Learning Approaches"
+version: 0.1.0
+date-released: 2026-10-02
+authors:
+  - family-names: Silvey
+    given-names: Howard R.
+repository-code: "https://github.com/howardsilvey7/nhl-goal-prediction"
+url: "https://github.com/howardsilvey7/nhl-goal-prediction"
+license: MIT
+abstract: "Initial temporal paired-regulation-goal experiment and a separate archival audit of the 2020 undergraduate honours project. Software license excludes manuscripts and third-party data."
+keywords:
+  - NHL
+  - probabilistic forecasting
+  - count models
+  - temporal validation

@@ -1,0 +1,16 @@
+{
+  "source": "MoneyPuck.com",
+  "url": "https://moneypuck.com/moneypuck/playerData/careers/gameByGame/all_teams.csv",
+  "retrieved_at_utc": "2026-10-02T07:03:06.422668+00:00",
+  "retrieval_time_precision": "Local download completion timestamp from file mtime",
+  "sha256": "27a6d0dcb1659eeb6780b955f058f2af5b33b5eba266bf120cdb23fb7f8477bf",
+  "bytes": 126526698,
+  "terms_url": "https://moneypuck.com/data.htm",
+  "use": "Non-commercial research with MoneyPuck.com attribution",
+  "redistribution": "Raw and row-level derivatives excluded",
+  "included_season_start_years": [
+    2016,
+    2024
+  ],
+  "reserved_season": 2025
+}

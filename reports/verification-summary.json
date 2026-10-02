@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "python": "3.12.14",
+  "clean_environment": "New isolated virtual environment installed from requirements.lock",
+  "invariant_tests": 7,
+  "official_score_checks": 54,
+  "frozen_model_variants_replayed": 9,
+  "replay_tolerance": 1e-07,
+  "r_parity": "Base R 4.2.3 Poisson; NLL and MAE discrepancies below 3e-9",
+  "formal_document_pairs": 3,
+  "visually_reviewed_pdf_pages": 38,
+  "scope": "Local verification; GitHub CI separately records remote verification"
+}

@@ -1,0 +1,231 @@
+{
+  "status": "passed",
+  "tolerance": 1e-07,
+  "comparisons": [
+    {
+      "model": "league_poisson",
+      "metric": "joint_nll",
+      "absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "model": "league_poisson",
+      "metric": "combined_mae",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "league_poisson",
+      "metric": "combined_rmse",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "league_poisson",
+      "metric": "outcome_brier",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "league_poisson",
+      "metric": "outcome_logloss",
+      "absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "model": "rolling_poisson",
+      "metric": "joint_nll",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "rolling_poisson",
+      "metric": "combined_mae",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "rolling_poisson",
+      "metric": "combined_rmse",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "rolling_poisson",
+      "metric": "outcome_brier",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "rolling_poisson",
+      "metric": "outcome_logloss",
+      "absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "model": "ridge_poisson_proxy",
+      "metric": "joint_nll",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "ridge_poisson_proxy",
+      "metric": "combined_mae",
+      "absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "model": "ridge_poisson_proxy",
+      "metric": "combined_rmse",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "ridge_poisson_proxy",
+      "metric": "outcome_brier",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "ridge_poisson_proxy",
+      "metric": "outcome_logloss",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "poisson",
+      "metric": "joint_nll",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "poisson",
+      "metric": "combined_mae",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "poisson",
+      "metric": "combined_rmse",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "poisson",
+      "metric": "outcome_brier",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "poisson",
+      "metric": "outcome_logloss",
+      "absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "model": "negative_binomial",
+      "metric": "joint_nll",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "negative_binomial",
+      "metric": "combined_mae",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "negative_binomial",
+      "metric": "combined_rmse",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "negative_binomial",
+      "metric": "outcome_brier",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "negative_binomial",
+      "metric": "outcome_logloss",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "attack_defence_poisson",
+      "metric": "joint_nll",
+      "absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "model": "attack_defence_poisson",
+      "metric": "combined_mae",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "attack_defence_poisson",
+      "metric": "combined_rmse",
+      "absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "model": "attack_defence_poisson",
+      "metric": "outcome_brier",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "attack_defence_poisson",
+      "metric": "outcome_logloss",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "bivariate_poisson",
+      "metric": "joint_nll",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "bivariate_poisson",
+      "metric": "combined_mae",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "bivariate_poisson",
+      "metric": "combined_rmse",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "bivariate_poisson",
+      "metric": "outcome_brier",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "bivariate_poisson",
+      "metric": "outcome_logloss",
+      "absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "model": "boosted_poisson",
+      "metric": "joint_nll",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "boosted_poisson",
+      "metric": "combined_mae",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "boosted_poisson",
+      "metric": "combined_rmse",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "boosted_poisson",
+      "metric": "outcome_brier",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "boosted_poisson",
+      "metric": "outcome_logloss",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "random_forest_poisson_proxy",
+      "metric": "joint_nll",
+      "absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "model": "random_forest_poisson_proxy",
+      "metric": "combined_mae",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "random_forest_poisson_proxy",
+      "metric": "combined_rmse",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "random_forest_poisson_proxy",
+      "metric": "outcome_brier",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "random_forest_poisson_proxy",
+      "metric": "outcome_logloss",
+      "absolute_difference": 0.0
+    }
+  ]
+}

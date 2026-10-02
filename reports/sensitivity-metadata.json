@@ -1,0 +1,16 @@
+{
+  "status": "Exploratory follow-up specified after initial holdout evaluation",
+  "accessed_season_start_years": [
+    2016,
+    2023
+  ],
+  "holdout_outcomes_accessed": false,
+  "primary_changed": false,
+  "priors_changed": false,
+  "variants": [
+    "window_5_full",
+    "window_10_full",
+    "window_40_full",
+    "window_20_no_shots_attempts"
+  ]
+}

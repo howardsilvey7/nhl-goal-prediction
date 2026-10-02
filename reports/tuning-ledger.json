@@ -1,0 +1,1250 @@
+[
+  {
+    "outer_season": 2019,
+    "model": "ridge_poisson_proxy",
+    "search": [
+      {
+        "config": {
+          "alpha": 1.0
+        },
+        "inner_nll": 3.8525420811004643,
+        "validation_season": 2018
+      },
+      {
+        "config": {
+          "alpha": 10.0
+        },
+        "inner_nll": 3.8519230470445227,
+        "validation_season": 2018
+      },
+      {
+        "config": {
+          "alpha": 100.0
+        },
+        "inner_nll": 3.848891047619112,
+        "validation_season": 2018
+      }
+    ],
+    "selected": {
+      "alpha": 100.0
+    }
+  },
+  {
+    "outer_season": 2019,
+    "model": "poisson",
+    "search": [
+      {
+        "config": {
+          "alpha": 0.01
+        },
+        "inner_nll": 3.8512955939669413,
+        "validation_season": 2018
+      },
+      {
+        "config": {
+          "alpha": 0.1
+        },
+        "inner_nll": 3.8479383224176944,
+        "validation_season": 2018
+      },
+      {
+        "config": {
+          "alpha": 1.0
+        },
+        "inner_nll": 3.8463481159157618,
+        "validation_season": 2018
+      }
+    ],
+    "selected": {
+      "alpha": 1.0
+    }
+  },
+  {
+    "outer_season": 2019,
+    "model": "negative_binomial",
+    "search": [
+      {
+        "config": {
+          "alpha": 0.01
+        },
+        "inner_nll": 3.851226162911451,
+        "validation_season": 2018
+      },
+      {
+        "config": {
+          "alpha": 0.1
+        },
+        "inner_nll": 3.84773973682943,
+        "validation_season": 2018
+      }
+    ],
+    "selected": {
+      "alpha": 0.1
+    }
+  },
+  {
+    "outer_season": 2019,
+    "model": "attack_defence_poisson",
+    "search": [
+      {
+        "config": {
+          "alpha": 0.01
+        },
+        "inner_nll": 3.867907912734181,
+        "validation_season": 2018
+      },
+      {
+        "config": {
+          "alpha": 0.1
+        },
+        "inner_nll": 3.858847304998408,
+        "validation_season": 2018
+      },
+      {
+        "config": {
+          "alpha": 1.0
+        },
+        "inner_nll": 3.864415572291633,
+        "validation_season": 2018
+      }
+    ],
+    "selected": {
+      "alpha": 0.1
+    }
+  },
+  {
+    "outer_season": 2019,
+    "model": "bivariate_poisson",
+    "search": [
+      {
+        "config": {
+          "alpha": 0.01
+        },
+        "inner_nll": 3.8512955939669413,
+        "validation_season": 2018
+      },
+      {
+        "config": {
+          "alpha": 0.1
+        },
+        "inner_nll": 3.8479383224176944,
+        "validation_season": 2018
+      },
+      {
+        "config": {
+          "alpha": 1.0
+        },
+        "inner_nll": 3.8463481159157618,
+        "validation_season": 2018
+      }
+    ],
+    "selected": {
+      "alpha": 1.0
+    }
+  },
+  {
+    "outer_season": 2019,
+    "model": "boosted_poisson",
+    "search": [
+      {
+        "config": {
+          "leaves": 7,
+          "iterations": 100
+        },
+        "inner_nll": 3.85092745383062,
+        "validation_season": 2018
+      },
+      {
+        "config": {
+          "leaves": 7,
+          "iterations": 200
+        },
+        "inner_nll": 3.8619798571247035,
+        "validation_season": 2018
+      },
+      {
+        "config": {
+          "leaves": 15,
+          "iterations": 100
+        },
+        "inner_nll": 3.8537017007844168,
+        "validation_season": 2018
+      },
+      {
+        "config": {
+          "leaves": 15,
+          "iterations": 200
+        },
+        "inner_nll": 3.872724352059661,
+        "validation_season": 2018
+      }
+    ],
+    "selected": {
+      "leaves": 7,
+      "iterations": 100
+    }
+  },
+  {
+    "outer_season": 2019,
+    "model": "random_forest_poisson_proxy",
+    "search": [
+      {
+        "config": {
+          "leaf": 20
+        },
+        "inner_nll": 3.8533006931800227,
+        "validation_season": 2018
+      },
+      {
+        "config": {
+          "leaf": 50
+        },
+        "inner_nll": 3.8486952664539795,
+        "validation_season": 2018
+      }
+    ],
+    "selected": {
+      "leaf": 50
+    }
+  },
+  {
+    "outer_season": 2020,
+    "model": "ridge_poisson_proxy",
+    "search": [
+      {
+        "config": {
+          "alpha": 1.0
+        },
+        "inner_nll": 3.77213896459523,
+        "validation_season": 2019
+      },
+      {
+        "config": {
+          "alpha": 10.0
+        },
+        "inner_nll": 3.772096950165599,
+        "validation_season": 2019
+      },
+      {
+        "config": {
+          "alpha": 100.0
+        },
+        "inner_nll": 3.7717761236712857,
+        "validation_season": 2019
+      }
+    ],
+    "selected": {
+      "alpha": 100.0
+    }
+  },
+  {
+    "outer_season": 2020,
+    "model": "poisson",
+    "search": [
+      {
+        "config": {
+          "alpha": 0.01
+        },
+        "inner_nll": 3.7732678564895186,
+        "validation_season": 2019
+      },
+      {
+        "config": {
+          "alpha": 0.1
+        },
+        "inner_nll": 3.7726489092567026,
+        "validation_season": 2019
+      },
+      {
+        "config": {
+          "alpha": 1.0
+        },
+        "inner_nll": 3.7723774395855982,
+        "validation_season": 2019
+      }
+    ],
+    "selected": {
+      "alpha": 1.0
+    }
+  },
+  {
+    "outer_season": 2020,
+    "model": "negative_binomial",
+    "search": [
+      {
+        "config": {
+          "alpha": 0.01
+        },
+        "inner_nll": 3.773416507991748,
+        "validation_season": 2019
+      },
+      {
+        "config": {
+          "alpha": 0.1
+        },
+        "inner_nll": 3.772838704326444,
+        "validation_season": 2019
+      }
+    ],
+    "selected": {
+      "alpha": 0.1
+    }
+  },
+  {
+    "outer_season": 2020,
+    "model": "attack_defence_poisson",
+    "search": [
+      {
+        "config": {
+          "alpha": 0.01
+        },
+        "inner_nll": 3.777582066425562,
+        "validation_season": 2019
+      },
+      {
+        "config": {
+          "alpha": 0.1
+        },
+        "inner_nll": 3.777112712605193,
+        "validation_season": 2019
+      },
+      {
+        "config": {
+          "alpha": 1.0
+        },
+        "inner_nll": 3.7873139470881583,
+        "validation_season": 2019
+      }
+    ],
+    "selected": {
+      "alpha": 0.1
+    }
+  },
+  {
+    "outer_season": 2020,
+    "model": "bivariate_poisson",
+    "search": [
+      {
+        "config": {
+          "alpha": 0.01
+        },
+        "inner_nll": 3.7732678564895186,
+        "validation_season": 2019
+      },
+      {
+        "config": {
+          "alpha": 0.1
+        },
+        "inner_nll": 3.7726489092567026,
+        "validation_season": 2019
+      },
+      {
+        "config": {
+          "alpha": 1.0
+        },
+        "inner_nll": 3.7723774395855982,
+        "validation_season": 2019
+      }
+    ],
+    "selected": {
+      "alpha": 1.0
+    }
+  },
+  {
+    "outer_season": 2020,
+    "model": "boosted_poisson",
+    "search": [
+      {
+        "config": {
+          "leaves": 7,
+          "iterations": 100
+        },
+        "inner_nll": 3.791947158205657,
+        "validation_season": 2019
+      },
+      {
+        "config": {
+          "leaves": 7,
+          "iterations": 200
+        },
+        "inner_nll": 3.8088652440321447,
+        "validation_season": 2019
+      },
+      {
+        "config": {
+          "leaves": 15,
+          "iterations": 100
+        },
+        "inner_nll": 3.8073470093686654,
+        "validation_season": 2019
+      },
+      {
+        "config": {
+          "leaves": 15,
+          "iterations": 200
+        },
+        "inner_nll": 3.82918582054177,
+        "validation_season": 2019
+      }
+    ],
+    "selected": {
+      "leaves": 7,
+      "iterations": 100
+    }
+  },
+  {
+    "outer_season": 2020,
+    "model": "random_forest_poisson_proxy",
+    "search": [
+      {
+        "config": {
+          "leaf": 20
+        },
+        "inner_nll": 3.7956899337810097,
+        "validation_season": 2019
+      },
+      {
+        "config": {
+          "leaf": 50
+        },
+        "inner_nll": 3.785098889836136,
+        "validation_season": 2019
+      }
+    ],
+    "selected": {
+      "leaf": 50
+    }
+  },
+  {
+    "outer_season": 2021,
+    "model": "ridge_poisson_proxy",
+    "search": [
+      {
+        "config": {
+          "alpha": 1.0
+        },
+        "inner_nll": 3.8026550653450144,
+        "validation_season": 2020
+      },
+      {
+        "config": {
+          "alpha": 10.0
+        },
+        "inner_nll": 3.802625528620527,
+        "validation_season": 2020
+      },
+      {
+        "config": {
+          "alpha": 100.0
+        },
+        "inner_nll": 3.8023745779777953,
+        "validation_season": 2020
+      }
+    ],
+    "selected": {
+      "alpha": 100.0
+    }
+  },
+  {
+    "outer_season": 2021,
+    "model": "poisson",
+    "search": [
+      {
+        "config": {
+          "alpha": 0.01
+        },
+        "inner_nll": 3.80155702491759,
+        "validation_season": 2020
+      },
+      {
+        "config": {
+          "alpha": 0.1
+        },
+        "inner_nll": 3.801149973885249,
+        "validation_season": 2020
+      },
+      {
+        "config": {
+          "alpha": 1.0
+        },
+        "inner_nll": 3.80162830061172,
+        "validation_season": 2020
+      }
+    ],
+    "selected": {
+      "alpha": 0.1
+    }
+  },
+  {
+    "outer_season": 2021,
+    "model": "negative_binomial",
+    "search": [
+      {
+        "config": {
+          "alpha": 0.01
+        },
+        "inner_nll": 3.801580421757737,
+        "validation_season": 2020
+      },
+      {
+        "config": {
+          "alpha": 0.1
+        },
+        "inner_nll": 3.801156269735911,
+        "validation_season": 2020
+      }
+    ],
+    "selected": {
+      "alpha": 0.1
+    }
+  },
+  {
+    "outer_season": 2021,
+    "model": "attack_defence_poisson",
+    "search": [
+      {
+        "config": {
+          "alpha": 0.01
+        },
+        "inner_nll": 3.8048903924026125,
+        "validation_season": 2020
+      },
+      {
+        "config": {
+          "alpha": 0.1
+        },
+        "inner_nll": 3.80974400237644,
+        "validation_season": 2020
+      },
+      {
+        "config": {
+          "alpha": 1.0
+        },
+        "inner_nll": 3.8237786602835366,
+        "validation_season": 2020
+      }
+    ],
+    "selected": {
+      "alpha": 0.01
+    }
+  },
+  {
+    "outer_season": 2021,
+    "model": "bivariate_poisson",
+    "search": [
+      {
+        "config": {
+          "alpha": 0.01
+        },
+        "inner_nll": 3.80155702491759,
+        "validation_season": 2020
+      },
+      {
+        "config": {
+          "alpha": 0.1
+        },
+        "inner_nll": 3.801149973885249,
+        "validation_season": 2020
+      },
+      {
+        "config": {
+          "alpha": 1.0
+        },
+        "inner_nll": 3.80162830061172,
+        "validation_season": 2020
+      }
+    ],
+    "selected": {
+      "alpha": 0.1
+    }
+  },
+  {
+    "outer_season": 2021,
+    "model": "boosted_poisson",
+    "search": [
+      {
+        "config": {
+          "leaves": 7,
+          "iterations": 100
+        },
+        "inner_nll": 3.8083613212886926,
+        "validation_season": 2020
+      },
+      {
+        "config": {
+          "leaves": 7,
+          "iterations": 200
+        },
+        "inner_nll": 3.8106121495703436,
+        "validation_season": 2020
+      },
+      {
+        "config": {
+          "leaves": 15,
+          "iterations": 100
+        },
+        "inner_nll": 3.811171316223113,
+        "validation_season": 2020
+      },
+      {
+        "config": {
+          "leaves": 15,
+          "iterations": 200
+        },
+        "inner_nll": 3.8182917109687744,
+        "validation_season": 2020
+      }
+    ],
+    "selected": {
+      "leaves": 7,
+      "iterations": 100
+    }
+  },
+  {
+    "outer_season": 2021,
+    "model": "random_forest_poisson_proxy",
+    "search": [
+      {
+        "config": {
+          "leaf": 20
+        },
+        "inner_nll": 3.810743031922981,
+        "validation_season": 2020
+      },
+      {
+        "config": {
+          "leaf": 50
+        },
+        "inner_nll": 3.8076447711195858,
+        "validation_season": 2020
+      }
+    ],
+    "selected": {
+      "leaf": 50
+    }
+  },
+  {
+    "outer_season": 2022,
+    "model": "ridge_poisson_proxy",
+    "search": [
+      {
+        "config": {
+          "alpha": 1.0
+        },
+        "inner_nll": 3.861388238223541,
+        "validation_season": 2021
+      },
+      {
+        "config": {
+          "alpha": 10.0
+        },
+        "inner_nll": 3.861394742486357,
+        "validation_season": 2021
+      },
+      {
+        "config": {
+          "alpha": 100.0
+        },
+        "inner_nll": 3.861465599522131,
+        "validation_season": 2021
+      }
+    ],
+    "selected": {
+      "alpha": 1.0
+    }
+  },
+  {
+    "outer_season": 2022,
+    "model": "poisson",
+    "search": [
+      {
+        "config": {
+          "alpha": 0.01
+        },
+        "inner_nll": 3.8596325462563446,
+        "validation_season": 2021
+      },
+      {
+        "config": {
+          "alpha": 0.1
+        },
+        "inner_nll": 3.85996511351703,
+        "validation_season": 2021
+      },
+      {
+        "config": {
+          "alpha": 1.0
+        },
+        "inner_nll": 3.86434931773345,
+        "validation_season": 2021
+      }
+    ],
+    "selected": {
+      "alpha": 0.01
+    }
+  },
+  {
+    "outer_season": 2022,
+    "model": "negative_binomial",
+    "search": [
+      {
+        "config": {
+          "alpha": 0.01
+        },
+        "inner_nll": 3.859591788669245,
+        "validation_season": 2021
+      },
+      {
+        "config": {
+          "alpha": 0.1
+        },
+        "inner_nll": 3.860015735765865,
+        "validation_season": 2021
+      }
+    ],
+    "selected": {
+      "alpha": 0.01
+    }
+  },
+  {
+    "outer_season": 2022,
+    "model": "attack_defence_poisson",
+    "search": [
+      {
+        "config": {
+          "alpha": 0.01
+        },
+        "inner_nll": 3.8966130423974343,
+        "validation_season": 2021
+      },
+      {
+        "config": {
+          "alpha": 0.1
+        },
+        "inner_nll": 3.901156530701945,
+        "validation_season": 2021
+      },
+      {
+        "config": {
+          "alpha": 1.0
+        },
+        "inner_nll": 3.9155908421705754,
+        "validation_season": 2021
+      }
+    ],
+    "selected": {
+      "alpha": 0.01
+    }
+  },
+  {
+    "outer_season": 2022,
+    "model": "bivariate_poisson",
+    "search": [
+      {
+        "config": {
+          "alpha": 0.01
+        },
+        "inner_nll": 3.8596325462563446,
+        "validation_season": 2021
+      },
+      {
+        "config": {
+          "alpha": 0.1
+        },
+        "inner_nll": 3.85996511351703,
+        "validation_season": 2021
+      },
+      {
+        "config": {
+          "alpha": 1.0
+        },
+        "inner_nll": 3.86434931773345,
+        "validation_season": 2021
+      }
+    ],
+    "selected": {
+      "alpha": 0.01
+    }
+  },
+  {
+    "outer_season": 2022,
+    "model": "boosted_poisson",
+    "search": [
+      {
+        "config": {
+          "leaves": 7,
+          "iterations": 100
+        },
+        "inner_nll": 3.873925816068225,
+        "validation_season": 2021
+      },
+      {
+        "config": {
+          "leaves": 7,
+          "iterations": 200
+        },
+        "inner_nll": 3.883515965022828,
+        "validation_season": 2021
+      },
+      {
+        "config": {
+          "leaves": 15,
+          "iterations": 100
+        },
+        "inner_nll": 3.881464292744307,
+        "validation_season": 2021
+      },
+      {
+        "config": {
+          "leaves": 15,
+          "iterations": 200
+        },
+        "inner_nll": 3.8958974659083294,
+        "validation_season": 2021
+      }
+    ],
+    "selected": {
+      "leaves": 7,
+      "iterations": 100
+    }
+  },
+  {
+    "outer_season": 2022,
+    "model": "random_forest_poisson_proxy",
+    "search": [
+      {
+        "config": {
+          "leaf": 20
+        },
+        "inner_nll": 3.874346331906542,
+        "validation_season": 2021
+      },
+      {
+        "config": {
+          "leaf": 50
+        },
+        "inner_nll": 3.8736005006272296,
+        "validation_season": 2021
+      }
+    ],
+    "selected": {
+      "leaf": 50
+    }
+  },
+  {
+    "outer_season": 2023,
+    "model": "ridge_poisson_proxy",
+    "search": [
+      {
+        "config": {
+          "alpha": 1.0
+        },
+        "inner_nll": 3.830456139423192,
+        "validation_season": 2022
+      },
+      {
+        "config": {
+          "alpha": 10.0
+        },
+        "inner_nll": 3.8304493268475537,
+        "validation_season": 2022
+      },
+      {
+        "config": {
+          "alpha": 100.0
+        },
+        "inner_nll": 3.8303870919370135,
+        "validation_season": 2022
+      }
+    ],
+    "selected": {
+      "alpha": 100.0
+    }
+  },
+  {
+    "outer_season": 2023,
+    "model": "poisson",
+    "search": [
+      {
+        "config": {
+          "alpha": 0.01
+        },
+        "inner_nll": 3.8308629770196934,
+        "validation_season": 2022
+      },
+      {
+        "config": {
+          "alpha": 0.1
+        },
+        "inner_nll": 3.8305190896968124,
+        "validation_season": 2022
+      },
+      {
+        "config": {
+          "alpha": 1.0
+        },
+        "inner_nll": 3.830816041490424,
+        "validation_season": 2022
+      }
+    ],
+    "selected": {
+      "alpha": 0.1
+    }
+  },
+  {
+    "outer_season": 2023,
+    "model": "negative_binomial",
+    "search": [
+      {
+        "config": {
+          "alpha": 0.01
+        },
+        "inner_nll": 3.831138991430626,
+        "validation_season": 2022
+      },
+      {
+        "config": {
+          "alpha": 0.1
+        },
+        "inner_nll": 3.8307924247805683,
+        "validation_season": 2022
+      }
+    ],
+    "selected": {
+      "alpha": 0.1
+    }
+  },
+  {
+    "outer_season": 2023,
+    "model": "attack_defence_poisson",
+    "search": [
+      {
+        "config": {
+          "alpha": 0.01
+        },
+        "inner_nll": 3.8710286520354216,
+        "validation_season": 2022
+      },
+      {
+        "config": {
+          "alpha": 0.1
+        },
+        "inner_nll": 3.8673560677101935,
+        "validation_season": 2022
+      },
+      {
+        "config": {
+          "alpha": 1.0
+        },
+        "inner_nll": 3.880996000208962,
+        "validation_season": 2022
+      }
+    ],
+    "selected": {
+      "alpha": 0.1
+    }
+  },
+  {
+    "outer_season": 2023,
+    "model": "bivariate_poisson",
+    "search": [
+      {
+        "config": {
+          "alpha": 0.01
+        },
+        "inner_nll": 3.8308629770196934,
+        "validation_season": 2022
+      },
+      {
+        "config": {
+          "alpha": 0.1
+        },
+        "inner_nll": 3.8305190896968124,
+        "validation_season": 2022
+      },
+      {
+        "config": {
+          "alpha": 1.0
+        },
+        "inner_nll": 3.830816041490424,
+        "validation_season": 2022
+      }
+    ],
+    "selected": {
+      "alpha": 0.1
+    }
+  },
+  {
+    "outer_season": 2023,
+    "model": "boosted_poisson",
+    "search": [
+      {
+        "config": {
+          "leaves": 7,
+          "iterations": 100
+        },
+        "inner_nll": 3.8338317207118773,
+        "validation_season": 2022
+      },
+      {
+        "config": {
+          "leaves": 7,
+          "iterations": 200
+        },
+        "inner_nll": 3.8403393086670023,
+        "validation_season": 2022
+      },
+      {
+        "config": {
+          "leaves": 15,
+          "iterations": 100
+        },
+        "inner_nll": 3.836941506470705,
+        "validation_season": 2022
+      },
+      {
+        "config": {
+          "leaves": 15,
+          "iterations": 200
+        },
+        "inner_nll": 3.8516706984524673,
+        "validation_season": 2022
+      }
+    ],
+    "selected": {
+      "leaves": 7,
+      "iterations": 100
+    }
+  },
+  {
+    "outer_season": 2023,
+    "model": "random_forest_poisson_proxy",
+    "search": [
+      {
+        "config": {
+          "leaf": 20
+        },
+        "inner_nll": 3.8385475649516416,
+        "validation_season": 2022
+      },
+      {
+        "config": {
+          "leaf": 50
+        },
+        "inner_nll": 3.831663901670071,
+        "validation_season": 2022
+      }
+    ],
+    "selected": {
+      "leaf": 50
+    }
+  },
+  {
+    "outer_season": 2024,
+    "model": "ridge_poisson_proxy",
+    "search": [
+      {
+        "config": {
+          "alpha": 1.0
+        },
+        "inner_nll": 3.8637580721092215,
+        "validation_season": 2023
+      },
+      {
+        "config": {
+          "alpha": 10.0
+        },
+        "inner_nll": 3.8637531068307047,
+        "validation_season": 2023
+      },
+      {
+        "config": {
+          "alpha": 100.0
+        },
+        "inner_nll": 3.8637055512449145,
+        "validation_season": 2023
+      }
+    ],
+    "selected": {
+      "alpha": 100.0
+    }
+  },
+  {
+    "outer_season": 2024,
+    "model": "poisson",
+    "search": [
+      {
+        "config": {
+          "alpha": 0.01
+        },
+        "inner_nll": 3.8648753370547593,
+        "validation_season": 2023
+      },
+      {
+        "config": {
+          "alpha": 0.1
+        },
+        "inner_nll": 3.8646087158137723,
+        "validation_season": 2023
+      },
+      {
+        "config": {
+          "alpha": 1.0
+        },
+        "inner_nll": 3.8634706393265317,
+        "validation_season": 2023
+      }
+    ],
+    "selected": {
+      "alpha": 1.0
+    }
+  },
+  {
+    "outer_season": 2024,
+    "model": "negative_binomial",
+    "search": [
+      {
+        "config": {
+          "alpha": 0.01
+        },
+        "inner_nll": 3.8648883687056204,
+        "validation_season": 2023
+      },
+      {
+        "config": {
+          "alpha": 0.1
+        },
+        "inner_nll": 3.8646477493144014,
+        "validation_season": 2023
+      }
+    ],
+    "selected": {
+      "alpha": 0.1
+    }
+  },
+  {
+    "outer_season": 2024,
+    "model": "attack_defence_poisson",
+    "search": [
+      {
+        "config": {
+          "alpha": 0.01
+        },
+        "inner_nll": 3.882733634001889,
+        "validation_season": 2023
+      },
+      {
+        "config": {
+          "alpha": 0.1
+        },
+        "inner_nll": 3.8859048267077942,
+        "validation_season": 2023
+      },
+      {
+        "config": {
+          "alpha": 1.0
+        },
+        "inner_nll": 3.8959416173032158,
+        "validation_season": 2023
+      }
+    ],
+    "selected": {
+      "alpha": 0.01
+    }
+  },
+  {
+    "outer_season": 2024,
+    "model": "bivariate_poisson",
+    "search": [
+      {
+        "config": {
+          "alpha": 0.01
+        },
+        "inner_nll": 3.8648753370547593,
+        "validation_season": 2023
+      },
+      {
+        "config": {
+          "alpha": 0.1
+        },
+        "inner_nll": 3.8646087158137723,
+        "validation_season": 2023
+      },
+      {
+        "config": {
+          "alpha": 1.0
+        },
+        "inner_nll": 3.8634706393265317,
+        "validation_season": 2023
+      }
+    ],
+    "selected": {
+      "alpha": 1.0
+    }
+  },
+  {
+    "outer_season": 2024,
+    "model": "boosted_poisson",
+    "search": [
+      {
+        "config": {
+          "leaves": 7,
+          "iterations": 100
+        },
+        "inner_nll": 3.869462751344654,
+        "validation_season": 2023
+      },
+      {
+        "config": {
+          "leaves": 7,
+          "iterations": 200
+        },
+        "inner_nll": 3.8768777691618803,
+        "validation_season": 2023
+      },
+      {
+        "config": {
+          "leaves": 15,
+          "iterations": 100
+        },
+        "inner_nll": 3.871512738283211,
+        "validation_season": 2023
+      },
+      {
+        "config": {
+          "leaves": 15,
+          "iterations": 200
+        },
+        "inner_nll": 3.8816973190425608,
+        "validation_season": 2023
+      }
+    ],
+    "selected": {
+      "leaves": 7,
+      "iterations": 100
+    }
+  },
+  {
+    "outer_season": 2024,
+    "model": "random_forest_poisson_proxy",
+    "search": [
+      {
+        "config": {
+          "leaf": 20
+        },
+        "inner_nll": 3.8710396046618585,
+        "validation_season": 2023
+      },
+      {
+        "config": {
+          "leaf": 50
+        },
+        "inner_nll": 3.8679381112486837,
+        "validation_season": 2023
+      }
+    ],
+    "selected": {
+      "leaf": 50
+    }
+  }
+]

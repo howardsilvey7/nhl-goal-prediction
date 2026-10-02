@@ -8,6 +8,7 @@ outputs/build/
 __pycache__/
 *.pyc
 .venv/
+.venv*/
 *.egg-info/
 reports/predictions/
 reports/models/

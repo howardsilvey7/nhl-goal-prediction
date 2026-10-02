@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "documents": 3,
+  "pdf_pages_visually_reviewed": 38,
+  "renderer": "Microsoft Word native PDF export; PyMuPDF 150 percent raster review",
+  "checks": [
+    "All pages visually inspected",
+    "No text overflow or empty pages",
+    "Tables, mathematical notation, figure titles and captions checked",
+    "PDF headings exported as navigation bookmarks"
+  ],
+  "document_hashes": {
+    "NHL-2020-Archival-Audit-and-Reproduction-Status.docx": "297dad8568b7c8a9b49b358ec3eab9890d683f9b15b64c7e0562f0e62fe90a97",
+    "NHL-2020-Archival-Audit-and-Reproduction-Status.pdf": "499e2e9f4dffe36d1cfb3002f4930548ac5f3048f3b74305a2dd2fa477ad9df1",
+    "NHL-2026-Research-Protocol-and-Reproducibility.docx": "91b9d7efe8a180f54e4ac3224bf4780250fa865f62b9fddf2526132aa5babe55",
+    "NHL-2026-Research-Protocol-and-Reproducibility.pdf": "6a36dd6757590752aa76330bd4fe6db5ade6c43d4a7de3ee5847a24b6acd408e",
+    "NHL-Goal-Prediction-2026-Thesis-Revision.docx": "57b4f977908357d7860f674f6b3c64c91a64c13897ab7d7c425df8f164275ef2",
+    "NHL-Goal-Prediction-2026-Thesis-Revision.pdf": "22a807f14588df54797f039d7654f191422b24b2d47f0b7e3d485fcc552f9dd7"
+  }
+}

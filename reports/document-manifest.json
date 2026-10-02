@@ -1,0 +1,35 @@
+[
+  {
+    "filename": "NHL-2020-Archival-Audit-and-Reproduction-Status.docx",
+    "sha256": "297dad8568b7c8a9b49b358ec3eab9890d683f9b15b64c7e0562f0e62fe90a97",
+    "bytes": 43454
+  },
+  {
+    "filename": "NHL-2020-Archival-Audit-and-Reproduction-Status.pdf",
+    "sha256": "499e2e9f4dffe36d1cfb3002f4930548ac5f3048f3b74305a2dd2fa477ad9df1",
+    "bytes": 159053,
+    "pages": 9
+  },
+  {
+    "filename": "NHL-2026-Research-Protocol-and-Reproducibility.docx",
+    "sha256": "91b9d7efe8a180f54e4ac3224bf4780250fa865f62b9fddf2526132aa5babe55",
+    "bytes": 44692
+  },
+  {
+    "filename": "NHL-2026-Research-Protocol-and-Reproducibility.pdf",
+    "sha256": "6a36dd6757590752aa76330bd4fe6db5ade6c43d4a7de3ee5847a24b6acd408e",
+    "bytes": 163398,
+    "pages": 7
+  },
+  {
+    "filename": "NHL-Goal-Prediction-2026-Thesis-Revision.docx",
+    "sha256": "57b4f977908357d7860f674f6b3c64c91a64c13897ab7d7c425df8f164275ef2",
+    "bytes": 351793
+  },
+  {
+    "filename": "NHL-Goal-Prediction-2026-Thesis-Revision.pdf",
+    "sha256": "22a807f14588df54797f039d7654f191422b24b2d47f0b7e3d485fcc552f9dd7",
+    "bytes": 523228,
+    "pages": 22
+  }
+]
