@@ -1,0 +1,15 @@
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+outputs/qa/
+outputs/build/
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+reports/predictions/
+reports/models/
+archive/*.txt
+local/
